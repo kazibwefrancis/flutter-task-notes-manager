@@ -1,0 +1,155 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter analyze
+
+## exception
+
+_Exception: Exception: analysis server exited with code 255 and output:
+[stderr] #26     AnalysisDriver.performWork (package:analyzer/src/dart/analysis/driver.dart:1229:7)
+[stderr] #27     AnalysisDriverScheduler._run (package:analyzer/src/dart/analysis/driver.dart:2611:24)
+[stderr] <asynchronous suspension>
+[stderr] 
+[stderr] 
+[stderr] #0      LibraryContext._throwLibraryCycleLinkException (package:analyzer/src/dart/analysis/library_context.dart:397:5)
+[stderr] #1      LibraryContext.load.loadBundle (package:analyzer/src/dart/analysis/library_context.dart:279:11)
+[stderr] #2      LibraryContext.load.loadBundle (package:analyzer/src/dart/analysis/library_context.dart:147:9)
+[stderr] #3      LibraryContext.load.loadBundle (package:analyzer/src/dart/analysis/library_context.dart:147:9)
+[stderr] #4      LibraryContext.load.<anonymous closure> (package:analyzer/src/dart/analysis/library_context.dart:324:7)
+[stderr] #5      PerformanceLog.run (package:analyzer/src/dart/analysis/performance_logger.dart:38:15)
+[stderr] #6      LibraryContext.load (package:analyzer/src/dart/analysis/library_context.dart:323:12)
+[stderr] #7      AnalysisDriver._produceErrors.<anonymous closure>.<anonymous closure> (package:analyzer/src/dart/analysis/driver.dart:1994:24)
+[stderr] #8      OperationPerformanceImpl.run (package:analyzer/src/util/performance/operation_performance.dart:150:23)
+[stderr] #9      AnalysisDriver._produceErrors.<anonymous closure> (package:analyzer/src/dart/analysis/driver.dart:1993:19)
+[stderr] #10     OperationPerformanceImpl.run (package:analyzer/src/util/performance/operation_performance.dart:150:23)
+[stderr] #11     AnalysisDriver._produceErrors (package:analyzer/src/dart/analysis/driver.dart:1985:38)
+[stderr] #12     AnalysisDriver.performWork (package:analyzer/src/dart/analysis/driver.dart:1229:7)
+[stderr] #13     AnalysisDriverScheduler._run (package:analyzer/src/dart/analysis/driver.dart:2611:24)
+[stderr] <asynchronous suspension>
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable,
+    3.35.4, on Microsoft Windows
+    [Version 10.0.22000.2538],
+    locale en-US) [1,845ms]
+    [32m•[39m Flutter version 3.35.4 on
+      channel stable at
+      C:\Users\Kazibwe Francis
+      Bant\OneDrive\Desktop\flutt
+      er
+    [32m•[39m Upstream repository
+      https://github.com/flutter/
+      flutter.git
+    [32m•[39m Framework revision
+      d693b4b9db (8 weeks ago),
+      2025-09-16 14:27:41 +0000
+    [32m•[39m Engine revision c298091351
+    [32m•[39m Dart version 3.9.2
+    [32m•[39m DevTools version 2.48.0
+    [32m•[39m Feature flags: enable-web,
+      enable-linux-desktop,
+      enable-macos-desktop,
+      enable-windows-desktop,
+      enable-android, enable-ios,
+      cli-animations,
+      enable-lldb-debugging
+
+[32m[✓][39m Windows Version (11 Pro
+    64-bit, 21H2, 2009) [15.2s]
+
+[32m[✓][39m Android toolchain - develop
+    for Android devices (Android
+    SDK version 35.0.0) [15.1s]
+    [32m•[39m Android SDK at
+      C:\android\sdk
+    [32m•[39m Emulator version 36.1.9.0
+      (build_id 13823996)
+      (CL:N/A)
+    [32m•[39m Platform android-36,
+      build-tools 35.0.0
+    [32m•[39m ANDROID_HOME =
+      C:\android\sdk
+    [32m•[39m ANDROID_SDK_ROOT =
+      C:\android\sdk
+    [32m•[39m Java binary at: C:\Program
+      Files\Eclipse
+      Adoptium\jdk-21.0.8.9-hotsp
+      ot\bin\java.exe
+      This JDK was found in the
+      system PATH.
+      To manually set the JDK
+      path, use: `flutter config
+      --jdk-dir="path/to/jdk"`.
+    [32m•[39m Java version OpenJDK
+      Runtime Environment
+      Temurin-21.0.8+9 (build
+      21.0.8+9-LTS)
+    [32m•[39m All Android licenses
+      accepted.
+
+[32m[✓][39m Chrome - develop for the web
+    [596ms]
+    [32m•[39m Chrome at C:\Program
+      Files\Google\Chrome\Applica
+      tion\chrome.exe
+
+[32m[✓][39m Visual Studio - develop
+    Windows apps (Visual Studio
+    Community 2022 17.14.14)
+    [586ms]
+    [32m•[39m Visual Studio at C:\Program
+      Files\Microsoft Visual
+      Studio\2022\Community
+    [32m•[39m Visual Studio Community
+      2022 version 17.14.36429.23
+    [32m•[39m Windows 10 SDK version
+      10.0.26100.0
+
+[33m[!][39m Android Studio (not
+    installed) [26ms]
+    [32m•[39m Android Studio not found;
+      download from
+      https://developer.android.c
+      om/studio/index.html
+      (or visit
+      https://flutter.dev/to/wind
+      ows-android-setup for
+      detailed instructions).
+
+[32m[✓][39m VS Code (version 1.105.1)
+    [24ms]
+    [32m•[39m VS Code at C:\Users\Kazibwe
+      Francis
+      Bant\AppData\Local\Programs
+      \Microsoft VS Code
+    [32m•[39m Flutter extension version
+      3.122.0
+
+[32m[✓][39m Connected device (3
+    available) [3.0s]
+    [32m•[39m Windows (desktop) • windows
+      • windows-x64    •
+      Microsoft Windows [Version
+      10.0.22000.2538]
+    [32m•[39m Chrome (web)      • chrome
+      • web-javascript • Google
+      Chrome 142.0.7444.134
+    [32m•[39m Edge (web)        • edge
+      • web-javascript •
+      Microsoft Edge
+      142.0.3595.53
+
+[32m[✓][39m Network resources [2.1s]
+    [32m•[39m All expected network
+      resources are available.
+
+[33m![39m Doctor found issues in 1
+  category.
+```

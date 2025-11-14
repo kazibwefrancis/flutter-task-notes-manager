@@ -1,0 +1,10 @@
+C:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/build/windows/x64/CMakeFiles/INSTALL.dir
+C:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+C:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+C:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+C:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/build/windows/x64/runner/CMakeFiles/task_notes_manager.dir
+C:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+C:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir

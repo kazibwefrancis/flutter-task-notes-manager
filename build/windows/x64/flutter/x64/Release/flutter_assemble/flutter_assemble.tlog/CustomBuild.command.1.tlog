@@ -1,0 +1,28 @@
+^C:\USERS\KAZIBWE FRANCIS BANT\DOCUMENTS\TASK_NOTES_MANAGER\BUILD\WINDOWS\X64\CMAKEFILES\F986CE97AAB7222F29E7C3FB7EEAFC32\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env "FLUTTER_ROOT=C:\Users\Kazibwe Francis Bant\OneDrive\Desktop\flutter" "PROJECT_DIR=C:\Users\Kazibwe Francis Bant\Documents\task_notes_manager" "FLUTTER_ROOT=C:\Users\Kazibwe Francis Bant\OneDrive\Desktop\flutter" "FLUTTER_EPHEMERAL_DIR=C:\Users\Kazibwe Francis Bant\Documents\task_notes_manager\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\Kazibwe Francis Bant\Documents\task_notes_manager" FLUTTER_TARGET=lib\main.dart DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuMzUuNA==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049ZDY5M2I0YjlkYg==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049YzI5ODA5MTM1MQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My45LjI= DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true "PACKAGE_CONFIG=C:\Users\Kazibwe Francis Bant\Documents\task_notes_manager\.dart_tool\package_config.json" "C:/Users/Kazibwe Francis Bant/OneDrive/Desktop/flutter/packages/flutter_tools/bin/tool_backend.bat" windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KAZIBWE FRANCIS BANT\DOCUMENTS\TASK_NOTES_MANAGER\BUILD\WINDOWS\X64\CMAKEFILES\5D97FB0FEBEBCD14AA36C38AAD887ADA\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KAZIBWE FRANCIS BANT\DOCUMENTS\TASK_NOTES_MANAGER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/windows" "-BC:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/build/windows/x64" --check-stamp-file "C:/Users/Kazibwe Francis Bant/Documents/task_notes_manager/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
